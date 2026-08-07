@@ -1,0 +1,9 @@
+name: diagnosis-codes-service
+port: 8313
+lang: python
+description: "diagnosis-codes-service \u2014 domain: ehr"
+http_deps:
+- audit-log-service
+publishes:
+- audit.event
+subscribes: []
