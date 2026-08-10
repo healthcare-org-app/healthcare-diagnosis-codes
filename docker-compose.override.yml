@@ -1,7 +1,7 @@
 services:
   diagnosis-codes-service:
     build: .
-    container_name: ${NAME_UNDERSCORE}
+    container_name: diagnosis_codes_service
     depends_on:
       postgres:
         condition: service_healthy
